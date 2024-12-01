@@ -15,7 +15,7 @@ void part1(std::vector<int>& left, std::vector<int>& right) {
     std::cout << sum << '\n';
 }
 
-void part2(std::vector<int>& left, std::vector<int>& right) {
+void part2(const std::vector<int>& left, const std::vector<int>& right) {
     int similarity { };
 
     for (int i : left) {
