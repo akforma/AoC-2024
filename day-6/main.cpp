@@ -125,7 +125,7 @@ int main() {
 
     std::size_t intialPos = pos; // need a copy for part 2
 
-    // part 2
+    // part 1
     walk(map, dir, pos, false);
     auto count = std::ranges::count(map, 'X');
     std::cout << "part 1: " << count << '\n';
